@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A fun application of simulated annealing
-date: 2024-02-15 18:01:35 +0000
+date: 2024-02-16
 categories: jekyll update
 usemathjax: true
 ---
