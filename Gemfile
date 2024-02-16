@@ -16,6 +16,7 @@ gem "minima", git: "https://github.com/jekyll/minima"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", git: "https://github.com/jekyll/jekyll-feed"
+  gem 'jekyll-remote-theme'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
