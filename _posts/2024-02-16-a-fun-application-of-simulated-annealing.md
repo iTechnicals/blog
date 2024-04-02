@@ -2,7 +2,6 @@
 layout: post
 title: A fun application of simulated annealing
 date: 2024-02-16
-categories: jekyll update
 usemathjax: true
 ---
 Sometimes a knowledge of computer science or programming ability can turn out to be helpful for physicists. For example, some problems, such as complex systems of differential equations, aren't analytically solvable (at least practically) and so a discrete-time approximation is a good route to take. What's rarer, though, is a physics problem where the challenge on the computer science side isn't just implementation but actual computer science, for example making the best choice of algorithm for a given situation -- even for optimisation problems, a very basic gradient descent setup is typically enough to take care of anything. So it was *not* for this particular problem, where I had to drag in the awesomely named technique of simulated annealing in the process of solving a purely physical problem.
