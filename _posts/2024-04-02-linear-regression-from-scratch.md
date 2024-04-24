@@ -4,6 +4,9 @@ title: Linear regression from scratch
 date: 2024-04-02
 usemathjax: true
 ---
+
+<body markdown='1' style="text-align: justify;">
+
 In my corner of the world, it seems that statistics has a bad reputation. When even my statistics teacher says quote 'no-one wants to each statistics' and even just 'I hate statistics', something has clearly gone wrong. But in a way, this isn't too surprising. So much of statistics requires such difficult maths to actually derive that for the majority of people it's just an exercise in mindless number manipulation until the supposedly right answer emerges. The curious student who, for example, heads to the derivation section on the Wikipedia page for Pearson's chi-squared test, is rapidly annihilated by equations so complicated that they can't even fit on the page; if you want to understand what $\sqrt{\pi}$ is doing in the normal distribution, you either need [a really good 3blue1brown video](https://www.youtube.com/watch?v=cy8r7WSuT1I) or a foundation in multivariable calculus.
 
 ![Steps in the derivation of Pearson's chi-squared test](/blog/assets/2024-04-02-linear-regression-from-scratch/chi-squared-derivation.png)
@@ -270,3 +273,5 @@ Anyway, as promised, a final exercise for the curious reader (although not an ex
 [^2]: I'm being a bit sarcastic. In seriousness, though, the biggest advantage is simply practicality: if we wrote the full matrices out every time, we would be using a lot of space very quickly, as you can perhaps see in the final few lines deriving $\beta_1$.
 
 [^3]: It turns out, for some very interesting reasons, even though matrix inversion is a convenient way to express the process of solving a set of simultaneous equations, it's never the best way to actually do it. See [this famous blog post](https://www.johndcook.com/blog/2010/01/19/dont-invert-that-matrix/) or alternatively [this one](https://gregorygundersen.com/blog/2020/12/09/matrix-inversion/) which goes into a bit more detail.
+
+</body>

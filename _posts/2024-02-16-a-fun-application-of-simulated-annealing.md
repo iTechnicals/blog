@@ -4,6 +4,9 @@ title: A fun application of simulated annealing
 date: 2024-02-16
 usemathjax: true
 ---
+
+<body markdown='1' style="text-align: justify;">
+
 Sometimes a knowledge of computer science or programming ability can turn out to be helpful for physicists. For example, some problems, such as complex systems of differential equations, aren't analytically solvable (at least practically) and so a discrete-time approximation is a good route to take. What's rarer, though, is a physics problem where the challenge on the computer science side isn't just implementation but actual computer science, for example making the best choice of algorithm for a given situation -- even for optimisation problems, a very basic gradient descent setup is typically enough to take care of anything. So it was *not* for this particular problem, where I had to drag in the awesomely named technique of simulated annealing in the process of solving a purely physical problem.
 
 ![Emission spectrum of hydrogen atom.](/blog/assets/2024-02-16-a-fun-application-of-simulated-annealing/spectrum-H-real.png)
@@ -175,3 +178,5 @@ and this is equal, to the full 6 significant figures, to the constant's accepted
 [^3]: [Accurate Atomic Transition Probabilities for Hydrogen, Helium, and Lithium](https://zenodo.org/records/1232309)
 
 [^4]: Technically I should be writing $R_H$, the Rydberg constant for hydrogen, which is notably not the same thing as $R_\infty$.
+
+</body>
