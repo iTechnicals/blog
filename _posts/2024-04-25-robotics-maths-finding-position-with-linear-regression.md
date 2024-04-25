@@ -103,7 +103,7 @@ $$
 \end{cases}
 $$
 
-If we were feeling pessimistic about our chances, we could implement gradient descent using these cost functions, and solve the problem by throwing a good old bit of CPU time at it. However, if we can, it'd be far, far preferable to get a closed form solution - and it shouldn't be _too_ hard, since we're dealing with trigonometric functions, with have a tendency to surprise us by doing nice things (spoiler alert). So let's give it a shot, and we'll just go for a simple substitution approach - right now, we aren't even sure how we're going to deal with $\sin\theta$ and $\cos\theta$ being present. Setting all the derivatives to 0 as per usual, we rearrange the first two resulting equations to get
+If we were feeling pessimistic about our chances, we could implement gradient descent using these cost functions, and solve the problem by throwing a good old bit of CPU time at it. However, if we can, it'd be far, far preferable to get a closed form solution - and it shouldn't be _too_ hard, since we're dealing with trigonometric functions, which have a tendency to surprise us by doing nice things (spoiler alert). So let's give it a shot, and we'll just go for a simple substitution approach - right now, we aren't even sure how we're going to deal with $\sin\theta$ and $\cos\theta$ being present. Setting all the derivatives to 0 as per usual, we rearrange the first two resulting equations to get
 
 $$
 \begin{cases}
