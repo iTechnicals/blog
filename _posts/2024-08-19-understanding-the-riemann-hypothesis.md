@@ -122,13 +122,13 @@ $$
 which is a fairly remarkable result. The LHS is referred to as a Dirichlet series, and we can extract partial sums of the von Mangoldt function using [Perron's formula](https://en.wikipedia.org/wiki/Perron%27s_formula):
 
 $$
-\sum_{n \leq x}\Lambda(x) = -\frac{1}{2\pi i}\int_{2-i\infty}^{2+i\infty} \frac{\zeta'(s)}{\zeta(s)}x^s\; ds
+\sum_{n \leq x}\Lambda(n) = -\frac{1}{2\pi i}\int_{2-i\infty}^{2+i\infty} \frac{\zeta'(s)}{\zeta(s)}x^s\; ds
 $$
 
 with the slight caveat that, if $x$ is an integer, we need to halve the last term in the summation. Now we have a nice contour integral on the RHS, and it's time to apply complex analysis magic in the form of the [residue theorem](https://en.wikipedia.org/wiki/Residue_theorem) to express the integral as a sum of the poles of the function (where it goes to infinity) - we can see that we'll have a pole wherever the denominator, $\zeta(s)$, is zero, and some bonus. We eventually get the stunning exact equality
 
 $$
-\sum_{n \leq x}\Lambda(x) = x - \sum_{\rho}\frac{x^\rho}{\rho} - \log 2\pi
+\sum_{n \leq x}\Lambda(n) = x - \sum_{\rho}\frac{x^\rho}{\rho} - \log 2\pi
 $$
 
 where the sum is over the zeroes of the zeta function (the same summation caveat holds). This is really a truly remarkable formula. An almost exact expression for the prime numbers is to be found only by examining the complex numbers for which the Riemann zeta function goes to 0. 
